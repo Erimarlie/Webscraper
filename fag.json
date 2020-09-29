@@ -1,0 +1,1434 @@
+2018-06-01 06:14:20 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapybot)
+2018-06-01 06:14:20 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17134-SP0
+2018-06-01 06:14:20 [scrapy.crawler] INFO: Overridden settings: {'LOG_FILE': 'fag.json', 'SPIDER_LOADER_WARN_ONLY': True}
+2018-06-01 06:14:21 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-01 06:14:21 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-01 06:14:21 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-01 06:14:21 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-06-01 06:14:21 [scrapy.core.engine] INFO: Spider opened
+2018-06-01 06:14:21 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-01 06:14:21 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-06-01 06:14:21 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://www.dagbladet.no/> from <GET https://www.db.no/>
+2018-06-01 06:14:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.dagbladet.no/> (referer: None)
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-35 large-size-24">\n'
+           '\n'
+           '                        Nye Pluto-funn overrasker forskere\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-4 large-size-20">\n'
+           '\n'
+           '                        Russland kaster seg inn fra sidelinja: '
+           '<span class=" small-size-12" data-lab-text_size_mobile="12">-\xa0'
+           'Heller bensin <span class=" small-size-38" '
+           'data-lab-text_size_mobile="38">på bålet</span></span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-16 large-size-20">\n'
+           '\n'
+           '                        «Den sovende løve» solgt for <span class=" '
+           'small-size-25" data-lab-text_size_mobile="25">over 3 mill.</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-35 large-size-32">\n'
+           '\n'
+           '                        Forhandler på overtid\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 id="insta-auto-8" class="headline">Følg Dagbladet på '
+           'Instagram</h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-7">\n'
+           '\n'
+           '                        Dette bildet ble tatt 10. mai. Melania har '
+           'ikke vist seg siden\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-3">\n'
+           '\n'
+           '                        Ida Kristine (29) er aseksuell: <span '
+           'class=" auto-size-9" data-lab-text_size_autosize="9">-\xa0For min '
+           'del er det bare slitsomt</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-3 large-size-25">\n'
+           '\n'
+           '                        På ett punkt får han <span class=" '
+           'large-size-41" data-lab-text_size_desktop="41">terningkast '
+           'én</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-9 large-size-18">\n'
+           '\n'
+           '                        Ti personligheter du bør se opp for\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-62 large-size-84">\n'
+           '\n'
+           '                        Her gjør han det uventede\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17 large-size-27">\n'
+           '\n'
+           '                        Ny bunn\xadrekord for Ap\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-18 large-size-25">\n'
+           '\n'
+           '                        Warholm sier unnskyld til Sverige\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-8 large-size-25">\n'
+           '\n'
+           '                        Barnereglene får <span class=" '
+           'large-size-38" data-lab-text_size_desktop="38">det til å '
+           'koke</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-11 large-size-29">\n'
+           '\n'
+           '                        - Jeg føler meg <span class=" '
+           'small-size-25 large-size-44" data-lab-text_size_mobile="25" '
+           'data-lab-text_size_desktop="44">misforstått</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-15 large-size-31">\n'
+           '\n'
+           '                        - Vi har selvfølgelig noen teorier om hva '
+           'som har skjedd\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-8">\n'
+           '\n'
+           '                        - Dette er helt forferdelige bilder\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-13 small-size-25">\n'
+           '\n'
+           '                        Gigantisk 1. premie og enorm 2. premie - '
+           'over en milliard til sammen!\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-15 large-size-37">\n'
+           '\n'
+           '                        Her riskerer du plombering av <span '
+           'class=" small-size-34" data-lab-text_size_mobile="34">krana om du '
+           'vanner</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-1 large-size-14">\n'
+           '\n'
+           '                        King oppgitt over Bournemouth-inntrykk\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-16 large-size-33">\n'
+           '\n'
+           '                        Lørdag møter Lagerbäck seg selv i døra\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-38 large-size-59">\n'
+           '\n'
+           '                        Halvliteren krymper\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17 large-size-24">\n'
+           '\n'
+           '                        Vi trenger ikke klikkvennlige filmer på '
+           'Facebook hvor livredde mennesker blir hengt ut som '
+           'nettovergripere\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-26 large-size-36">\n'
+           '\n'
+           '                        Hesteeier angrepet av naken mann i '
+           'stallen\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-35 large-size-39">\n'
+           '\n'
+           '                        To menn falt fra balkong i Elverum\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-39">\n'
+           '\n'
+           '                        - Welcome motherfuckers\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Slik finner flere og flere voksne '
+           'kjærligheten\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-8">\n'
+           '\n'
+           '                        Plutselig snur elgen\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-22 large-size-26">\n'
+           '\n'
+           '                        NRK sa unnskyld til Abid Raja\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Dag Solstad om vennen Jon Michelet: -\xa0'
+           'Følte noen ganger at vi var som et ektepar\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-24 large-size-43">\n'
+           '\n'
+           '                        Hvor blir det av mennene i samtalen om '
+           '#metoo?\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-12 large-size-18">\n'
+           '\n'
+           '                        Dette bør finalistene gjøre med kula\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-4 large-size-35">\n'
+           '\n'
+           '                        100 mill. skal styrke barnehagene\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-26 large-size-42">\n'
+           '\n'
+           '                        Mann og kvinne reddet ut av vannet av '
+           'surfere\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-16 large-size-40">\n'
+           '\n'
+           '                        Stang ut som ordfører\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-12 large-size-27">\n'
+           '\n'
+           '                        Italia får ny regjering fredag\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-6">\n'
+           '\n'
+           '                        Tar helt av: Millioner vil ha denne '
+           'VM-drakta\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-23 large-size-27">\n'
+           '\n'
+           '                        - Absolutt alle vil tape på dette\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-3 large-size-8">\n'
+           '\n'
+           '                        Se den spesielle av\xad\xaddukingen av '
+           '«analplugg-gnomen»\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-10 large-size-24">\n'
+           '\n'
+           '                        Orienterte om oljeskandalen i Oslo: <span '
+           'class=" small-size-65 large-size-85" '
+           'data-lab-text_size_mobile="65" data-lab-text_size_desktop="85">- '
+           'Forferdelig</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-3 large-size-18">\n'
+           '\n'
+           '                        Ruud sjanseløs - ute av French Open\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-32 large-size-55">\n'
+           '\n'
+           '                        Slik lager du pizza på grillen\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-1 large-size-13">\n'
+           '\n'
+           '                        - Jeg er heldig som ikke er i sosiale '
+           'medier\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-9 large-size-13">\n'
+           '\n'
+           '                        Siv får tyn fra sine egne <span class=" '
+           'large-size-21" data-lab-text_size_desktop="21">- krever at '
+           'sukker\xadavgiften fjernes</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-21 large-size-40">\n'
+           '\n'
+           '                        Knusende dom over Rajoy\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-11 large-size-28">\n'
+           '\n'
+           '                        - Rart! Du sitter i feil farger\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-5 large-size-21">\n'
+           '\n'
+           '                        Slik påvirker bank\xadstreiken deg\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-3">\n'
+           '\n'
+           '                        - Kontakt mellom internasjonal mafia og '
+           'Oslos underverden\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Første test i Norge: Nye Volvo V60 '
+           'imponerer stort\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-46 large-size-30">\n'
+           '\n'
+           '                        - Helt Paradise Hotel-stemning\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-21 large-size-37">\n'
+           '\n'
+           '                        Stortinget sier ja til ut\xadbygging av '
+           'oljefeltet Johan Castberg\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-15 large-size-31">\n'
+           '\n'
+           '                        Ny stål-toll fra <span class=" '
+           'small-size-33 large-size-55" data-lab-text_size_mobile="33" '
+           'data-lab-text_size_desktop="55">flere land</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-20 large-size-39">\n'
+           '\n'
+           '                        Politiet legger seg flate: -\xa0Noen '
+           'ganger blir det feil\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-2 large-size-16">\n'
+           '\n'
+           '                        - At Froome får beholde Giro-seieren, er '
+           'langt fra gitt\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-4">\n'
+           '\n'
+           '                        Nei, du får ikke gratis iPhone på «VG»\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-51 large-size-83">\n'
+           '\n'
+           '                        Zidane gir seg\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-4 large-size-5">\n'
+           '\n'
+           '                        Kjendisene hiver penger etter <span '
+           'class=" large-size-15" data-lab-text_size_desktop="15">Maaseides '
+           'nye bank</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17 large-size-12">\n'
+           '\n'
+           '                        Kapital har kåret Norges <span class=" '
+           'large-size-22" data-lab-text_size_desktop="22">mektigste '
+           'kvinner</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-12 large-size-18">\n'
+           '\n'
+           '                        Slik var draps\xadbløffen som lurte '
+           'verden\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Her bryter TV-stjernene ut i latter\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-13 small-size-25">\n'
+           '\n'
+           '                        Vant over 2,2 millioner - fikk sjokk da '
+           'hun så de ubesvarte anropene\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-25 large-size-44">\n'
+           '\n'
+           '                        Turist om\xadkom etter fall på 30 meter i '
+           'Lofoten\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-11 large-size-9">\n'
+           '\n'
+           '                        Nå får du enda flere rettigheter ved '
+           'forsinkelse\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-4 large-size-21">\n'
+           '\n'
+           '                        <span class=" small-size-13" '
+           'data-lab-text_size_mobile="13">- Jeg er veldig <span class=" '
+           'small-size-34 large-size-47" data-lab-text_size_mobile="34" '
+           'data-lab-text_size_desktop="47">imponert</span></span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-27">\n'
+           '\n'
+           '                        Slik så det ut i går. <span class=" '
+           'small-size-51 large-size-47" data-lab-text_size_mobile="51" '
+           'data-lab-text_size_desktop="47">Stengt i dag!</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-11 large-size-34">\n'
+           '\n'
+           '                        - Jeg har aldri opplevd maken!\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-13 large-size-26">\n'
+           '\n'
+           '                        Rekordmange <span class=" primary '
+           'small-size-38 large-size-39" data-lab-text_color_mobile="primary" '
+           'data-lab-text_size_mobile="38" '
+           'data-lab-text_size_desktop="39">E.coli-forgiftet</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-5 large-size-5">\n'
+           '\n'
+           '                        Historien fra virkeligheten er blitt '
+           'temmelig annerledes i filmen\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-14 large-size-17">\n'
+           '\n'
+           '                        Borettslag kan forby røyking på balkonger\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-7 large-size-22">\n'
+           '\n'
+           '                        Det er flaks at ikke liv har gått tapt\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-6 large-size-21">\n'
+           '\n'
+           '                        Oppsiktsvekkende godt portrett av en '
+           'nybakt mamma\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17 large-size-27">\n'
+           '\n'
+           '                        «Voffor kan jeg ikke gå på asfalten»?\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17 large-size-43">\n'
+           '\n'
+           '                        <span class=" primary" '
+           'data-lab-text_color_mobile="primary">Prisene klare:</span> <span '
+           'class=" small-size-29 large-size-61" '
+           'data-lab-text_size_mobile="29" '
+           'data-lab-text_size_desktop="61">Oppsikts-vekkende</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-8">\n'
+           '\n'
+           '                        «Drept» journalist dukket opp i live\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-10">\n'
+           '\n'
+           '                        -\xa0Aldri vært så ille som i år\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-20 large-size-22">\n'
+           '\n'
+           '                        Begynte med en fleip\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-13 large-size-23">\n'
+           '\n'
+           '                        Måtte bevise at hun var moren\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17 large-size-28">\n'
+           '\n'
+           '                        Lekkasjen kom fra Oslo Sporveier\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-13">\n'
+           '\n'
+           '                        - Som å gi et godkjent\xad\xadstempel til '
+           'kull\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-14 large-size-27">\n'
+           '\n'
+           '                        Camping-vogner totalt utbrent: <span '
+           'class=" small-size-23 large-size-40" '
+           'data-lab-text_size_mobile="23" '
+           'data-lab-text_size_desktop="40">-\xa0Jeg har gråten i '
+           'halsen</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-11 large-size-28">\n'
+           '\n'
+           '                        Australsk politi <span class=" '
+           'small-size-27" data-lab-text_size_mobile="27">blåste i alle '
+           'regler</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-41 large-size-54">\n'
+           '\n'
+           '                        Alt gikk i dass\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-16 large-size-20">\n'
+           '\n'
+           '                        Arrestasjonen av Tommy Robinson har skapt '
+           'rabalder. <span class=" primary" '
+           'data-lab-text_color_mobile="primary">Hvorfor skjedde det?</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-24 large-size-37">\n'
+           '\n'
+           '                        Et satans rockteater\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-6 large-size-10">\n'
+           '\n'
+           '                        - Et alvorlig samfunnsproblem <span '
+           'class=" large-size-32" data-lab-text_size_desktop="32">som er '
+           'avdekket</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-6">\n'
+           '\n'
+           '                        Slik døde mannen for 1900 år siden\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-15 large-size-43">\n'
+           '\n'
+           '                        35 varslings-saker i Høyre\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-20">\n'
+           '\n'
+           '                        Slik får du drikken kald på 1-2-3\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-9 large-size-30">\n'
+           '\n'
+           '                        Fansen krangler\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-10 large-size-15">\n'
+           '\n'
+           '                        To bolig\xadbranner i Helgeland i natt. '
+           '<span class=" small-size-38 large-size-43" '
+           'data-lab-text_size_mobile="38" '
+           'data-lab-text_size_desktop="43">Mann pågrepet</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-2 large-size-17">\n'
+           '\n'
+           '                        Northug tar grep <span class=" '
+           'small-size-19 large-size-31" data-lab-text_size_mobile="19" '
+           'data-lab-text_size_desktop="31">etter ropene om «ulykke»</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-37 large-size-31">\n'
+           '\n'
+           '                        En ny uro brer seg\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-13">\n'
+           '\n'
+           '                        <span class=" small-size-21" '
+           'data-lab-text_size_mobile="21">«Hadde til hensikt å skade»</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-7 large-size-18">\n'
+           '\n'
+           '                        Disse blir tatt ut i <span class=" '
+           'small-size-57 large-size-78" data-lab-text_size_mobile="57" '
+           'data-lab-text_size_desktop="78">bank-streik</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-24 large-size-44">\n'
+           '\n'
+           '                        Dobbeltgjenger forvirrer\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-33 large-size-46">\n'
+           '\n'
+           '                        Tre veier\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-9">\n'
+           '\n'
+           '                        Derfor slipper svenskene inn i flere land '
+           'enn oss\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Slik har det gått med metoo-varslene i '
+           'partiene\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Venter barn med sin 20 år yngre kone\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-18">\n'
+           '\n'
+           '                        Karstens hemmelige styrke snur opp ned på '
+           'sporten\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-12 large-size-19">\n'
+           '\n'
+           '                        - Hun har vært i fengsel i 21 år og vil dø '
+           'der\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-12 large-size-34">\n'
+           '\n'
+           '                        Soyaversting får millionbøter\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-9 large-size-11">\n'
+           '\n'
+           '                        - Jeg var forberedt <span class=" primary" '
+           'data-lab-text_color_mobile="primary">på at pappa skulle ta sitt '
+           'eget liv</span>, men ikke at han skulle ta med seg mamma også\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-7">\n'
+           '\n'
+           '                        Brutalt strand-drama går verden rundt\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-20 large-size-43">\n'
+           '\n'
+           '                        Selger tomt for millioner\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-13 large-size-32">\n'
+           '\n'
+           '                        Røyk ut dagen <span class=" small-size-27" '
+           'data-lab-text_size_mobile="27">før finalen</span><span class=" '
+           'small-size-13" data-lab-text_size_mobile="13"></span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-7 large-size-22">\n'
+           '\n'
+           '                        Glassrute falt ned fra Barcode-blokk\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-8 large-size-23">\n'
+           '\n'
+           '                        Døvemøte gikk uten tolk: - Pinlig\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-25 large-size-40">\n'
+           '\n'
+           '                        Ber gjester på Sørenga i Oslo om å slutte '
+           'å bade\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Dette er våpnene som trolig snart blir '
+           'forbudt i Norge\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-7">\n'
+           '\n'
+           '                        Avgjorde VM-finalen sist. Nå er han '
+           'vraket\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-7 large-size-14">\n'
+           '\n'
+           '                        Rosenborg videre etter vanvittig '
+           'straffedrama\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-6 large-size-10">\n'
+           '\n'
+           '                        Lillestrøm ydmyket <span class=" '
+           'small-size-14" data-lab-text_size_mobile="14">Brann. <span class=" '
+           'large-size-20" data-lab-text_size_desktop="20">Klar for '
+           'kvartfinale</span></span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-27 large-size-36">\n'
+           '\n'
+           '                        Weinstein tiltalt for voldtekt\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-4 large-size-18">\n'
+           '\n'
+           '                        Her svever Lene (22) inn til ny norsk '
+           'rekord for tredje gang på én kveld\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-13 large-size-34">\n'
+           '\n'
+           '                        Én million kan miste TV 2\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-2 large-size-14">\n'
+           '\n'
+           '                        iPhone-oppdatering med etterlengtet nyhet\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-10">\n'
+           '\n'
+           '                        Be Color Line ryke\xa0og reise\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-10 large-size-24">\n'
+           '\n'
+           '                        Liten brikke i Kim Jong-uns spill\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-2 large-size-15">\n'
+           '\n'
+           '                        En dyktig, nesten voksen Justin-kloning\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-28 large-size-47">\n'
+           '\n'
+           '                        Espen sier han varslet politiet tre '
+           'ganger\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-4 large-size-20">\n'
+           '\n'
+           '                        - Metoo kalles hekse\xadjakt på menn\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Vil forhandle om 1000 nye '
+           'kvoteflyktninger\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-8">\n'
+           '\n'
+           '                        Ventet på bussen - fikk bil av fremmed\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-7">\n'
+           '\n'
+           '                        Hemmelig møte i Oslos underverden\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-10 large-size-8">\n'
+           '\n'
+           '                        Trump med nye angrep på egen '
+           'justisminister\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-5 large-size-14">\n'
+           '\n'
+           '                        <span class=" primary" '
+           'data-lab-text_color_mobile="primary">«Ekstremt sjelden»:</span> '
+           '<span class=" small-size-17" data-lab-text_size_mobile="17">Funnet '
+           '<span class=" large-size-26" data-lab-text_size_desktop="26">på '
+           'loft i en skoeske</span></span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-23 large-size-43">\n'
+           '\n'
+           '                        Støvet ned på et loft. Nå er den verdt '
+           'millioner\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-9 large-size-32">\n'
+           '\n'
+           '                        Derfor spilte journalisten død\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-11 large-size-21">\n'
+           '\n'
+           '                        - Blir nok ingen <span class=" '
+           'large-size-41 small-size-33" data-lab-text_size_desktop="41" '
+           'data-lab-text_size_mobile="33">toppspiss</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Legene vurderte tvangsinnleggelse bare '
+           'dager før: Ikke syk nok\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-18 large-size-41">\n'
+           '\n'
+           '                        Slik griller du asparges\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-14 large-size-18">\n'
+           '\n'
+           '                        Så enkelt er det med laks i folie på '
+           'grillen\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-45 large-size-29">\n'
+           '\n'
+           '                        Tilbake med et brak etter fire år\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-20 large-size-38">\n'
+           '\n'
+           '                        Øyeblikket Massie fryktet: <span class=" '
+           'small-size-25 large-size-46" data-lab-text_size_mobile="25" '
+           'data-lab-text_size_desktop="46">«Skal jeg ta farvel nå?»</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Ble hyllet av Nordlie. Så startet '
+           'marerittet\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-4">\n'
+           '\n'
+           '                        Gir bort garderoben: - Har fått '
+           'cellulitter i armhulene\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-6 large-size-23">\n'
+           '\n'
+           '                        Godset-spillerne gjorde store øyne: - Jeg '
+           'ble sjokkert\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-12 large-size-30">\n'
+           '\n'
+           '                        - Har ikke sagt at jeg fortsetter\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-16 large-size-22">\n'
+           '\n'
+           '                        Trekker tilbake skole\xadskytingsspill\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-3">\n'
+           '\n'
+           '                        Born av norske IS-rekruttar er fanga i ein '
+           'limbotilstand i Syria og Irak. Også dei er offer.\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-8 large-size-16">\n'
+           '\n'
+           '                        Best før 28.02.19 - da kan det være '
+           'glasskår i ølet\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-10 large-size-33">\n'
+           '\n'
+           '                        Sunn burger overrasker stort\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-18 large-size-35">\n'
+           '\n'
+           '                        Norge på 19.plass: Disse landene har flere '
+           'feriedager\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-27 large-size-48">\n'
+           '\n'
+           '                        Nå tilbys han kontrakt av 3. '
+           'divisjonsklubb\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-25 large-size-32">\n'
+           '\n'
+           '                        Kollaps for Varner-brødrene\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-7 large-size-17">\n'
+           '\n'
+           '                        Tande fikk total panikk: \xad- Følte jeg '
+           'lå på dødsleiet\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Først da han kom tilbake til hotellet, '
+           'forsto bryllupsfotografen hva han hadde fanget\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Skrøt av råkjøring med Teslaen. UP-sjefen '
+           'er ikke like imponert\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-6 large-size-38">\n'
+           '\n'
+           '                        Jan Kjærstad er en <span class=" '
+           'small-size-58" data-lab-text_size_mobile="58">modig mann</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-25">\n'
+           '\n'
+           '                        Forlater Circle K <span class=" '
+           'small-size-37" data-lab-text_size_mobile="37">som en rik '
+           'mann</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-27 large-size-37">\n'
+           '\n'
+           '                        Her trener Bolt med Godset\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17">\n'
+           '\n'
+           '                        <span class=" small-size-41 large-size-49" '
+           'data-lab-text_size_mobile="41" '
+           'data-lab-text_size_desktop="49">Sjokkert</span> over nytt spill\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17 large-size-46">\n'
+           '\n'
+           '                        Her blir bilen <span class=" small-size-34 '
+           'large-size-73" data-lab-text_size_mobile="34" '
+           'data-lab-text_size_desktop="73">omringet</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-2 large-size-11">\n'
+           '\n'
+           '                        Slik kan bankstreiken <span class=" '
+           'small-size-22 large-size-37" data-lab-text_size_mobile="22" '
+           'data-lab-text_size_desktop="37">ramme deg</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-1">\n'
+           '\n'
+           '                        Babyen til Helle Cecilie ble født frisk. '
+           '<span class=" primary" data-lab-text_color_autosize="primary">Fem '
+           'måneder senere ble livet snudd opp ned</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-37 large-size-62">\n'
+           '\n'
+           '                        «Alle får vite at du er en liten hore»\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-29 large-size-48">\n'
+           '\n'
+           '                        Nytt Tesla-sjokk: Slik endte det - igjen\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-6 large-size-25">\n'
+           '\n'
+           '                        Ny billig-matkasse <span class=" '
+           'large-size-63 small-size-27" data-lab-text_size_desktop="63" '
+           'data-lab-text_size_mobile="27">tar helt av</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-15">\n'
+           '\n'
+           '                        Derfor fortalte hun om vekt\xadøkningen: '
+           '<span class=" small-size-42 primary large-size-60" '
+           'data-lab-text_size_mobile="42" '
+           'data-lab-text_color_desktop="primary" '
+           'data-lab-text_size_desktop="60">- Bisart</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-3">\n'
+           '\n'
+           '                        Sa politimannen forgrep seg på henne. Så '
+           'fikk de se videoen\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Mannen som ga den britiske adelen '
+           'hakeslepp\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-21">\n'
+           '\n'
+           '                        Meglertopp solgte privat hos fienden\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-1 large-size-12">\n'
+           '\n'
+           '                        Voldssiktet Nato-offiser <span class=" '
+           'small-size-8 large-size-22" data-lab-text_size_mobile="8" '
+           'data-lab-text_size_desktop="22">varetektsfengslet</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17 large-size-45">\n'
+           '\n'
+           '                        Sannheten var en annen\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-9 large-size-18">\n'
+           '\n'
+           '                        Fikk nyss om stopperstjernas vinkveld - og '
+           'ble <span class=" small-size-47 large-size-60" '
+           'data-lab-text_size_mobile="47" '
+           'data-lab-text_size_desktop="60">henrykt</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-8 large-size-28">\n'
+           '\n'
+           '                        Vil stanse salg av engangsgriller\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17 large-size-27">\n'
+           '\n'
+           '                        - Helt i Carstens ånd\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-6">\n'
+           '\n'
+           '                        - Unnskyld, alle korps\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-4 large-size-15">\n'
+           '\n'
+           '                        Skyhøy skog\xadbrann\xadfare – ta ansvar!\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-2 large-size-10">\n'
+           '\n'
+           '                        Retten ville ikke at aktivistens '
+           'arrestasjon skulle omtales\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-19 large-size-35">\n'
+           '\n'
+           '                        Unnslipper med et nødskrik\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-31">\n'
+           '\n'
+           '                        <span class=" small-size-34" '
+           'data-lab-text_size_mobile="34">Skylder på porno</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-21">\n'
+           '\n'
+           '                        <span class=" small-size-29 large-size-39" '
+           'data-lab-text_size_mobile="29" '
+           'data-lab-text_size_desktop="39">Hylles for klesvalget</span> <span '
+           'class=" small-size-17" data-lab-text_size_mobile="17">i '
+           'comebacket</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Den beste turgrillen med gass\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Spedbarn født på øy hvor det er forbudt å '
+           'føde\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-50">\n'
+           '\n'
+           '                        <span class=" small-size-45" '
+           'data-lab-text_size_mobile="45">Frikjent</span> for trylletrikset\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-10 large-size-21">\n'
+           '\n'
+           '                        Tas av skjermen etter rasistiske <span '
+           'class=" small-size-31 large-size-42" '
+           'data-lab-text_size_mobile="31" '
+           'data-lab-text_size_desktop="42">uttalelser</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-42">\n'
+           '\n'
+           '                        <span class=" large-size-41" '
+           'data-lab-text_size_desktop="41">Klæbo skaper trøbbel for</span> '
+           '<span class=" large-size-85 small-size-53" '
+           'data-lab-text_size_desktop="85" '
+           'data-lab-text_size_mobile="53">Northugs plan</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-4 large-size-13">\n'
+           '\n'
+           '                        <span class=" small-size-15" '
+           'data-lab-text_size_mobile="15"><span class=" large-size-26" '
+           'data-lab-text_size_desktop="26">Feil at én av fire elever ikke '
+           'fullfører</span> </span>videregående på normert tid\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-17 large-size-27">\n'
+           '\n'
+           '                        Spiller russisk rulett med EU\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-3">\n'
+           '\n'
+           '                        Promillen var så høy at de fleste ville ha '
+           'ligget over do og spydd. <span class=" primary" '
+           'data-lab-text_color_autosize="primary">Likevel satte Lasse seg i '
+           'bilen</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-6 large-size-17">\n'
+           '\n'
+           '                        Kvinne (45) tiltalt for å ha opprettet '
+           'livsforsikring på sin døde eksmann\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-19 large-size-25">\n'
+           '\n'
+           '                        SAS tapte en halv milliard\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-8">\n'
+           '\n'
+           '                        <span class=" small-size-30 large-size-42" '
+           'data-lab-text_size_mobile="30" '
+           'data-lab-text_size_desktop="42">Fikk kjeft:</span> - Bryr meg ikke '
+           'om Iversen\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-5 large-size-25">\n'
+           '\n'
+           '                        «Paradise»-Marius\' <span class=" '
+           'small-size-31 large-size-63" data-lab-text_size_mobile="31" '
+           'data-lab-text_size_desktop="63">store sorg</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-5 large-size-9">\n'
+           '\n'
+           '                        Dette må du <span class=" small-size-17" '
+           'data-lab-text_size_mobile="17">absolutt ikke</span> putte i '
+           'containeren\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-11 large-size-36">\n'
+           '\n'
+           '                        <span class=" small-size-28" '
+           'data-lab-text_size_mobile="28">Audi letter på sløret</span> om '
+           'e-tron\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Klopp om Real Madrid-laget: - Spesielt\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-10">\n'
+           '\n'
+           '                        - Herregud, hvem faen har telt høner?\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-8 large-size-17">\n'
+           '\n'
+           '                        Klar til å overta ambulanse\xadrotet <span '
+           'class=" small-size-7" data-lab-text_size_mobile="7">på bare tre '
+           'måneders varsel</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-13 large-size-15">\n'
+           '\n'
+           '                        Nei til atom-nedrustning, <span class=" '
+           'primary large-size-30" data-lab-text_color_mobile="primary" '
+           'data-lab-text_size_desktop="30">ja til burgerkjede</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-26 large-size-41">\n'
+           '\n'
+           '                        Tog antente ti branner langs Bergensbanen\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-28 large-size-40">\n'
+           '\n'
+           '                        Ny studie kommer til 4645\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline large-size-13">\n'
+           '\n'
+           '                        Liten detalje er et gigantisk hint om '
+           '<span class=" small-size-35" data-lab-text_size_mobile="35">hva '
+           'som foregår</span>\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-6">\n'
+           '\n'
+           '                        Hitlers mest blodtørstige dommer\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-24 large-size-42">\n'
+           '\n'
+           '                        Kvinne omkom etter fall\xadulykke på '
+           'Sunnmøre\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline small-size-33 large-size-19">\n'
+           '\n'
+           '                        CIA-direktør skal ha møtt Kim Jong-un\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline auto-size-8 small-size-3 large-size-8">\n'
+           '\n'
+           '                        La ut skrytevideo: -\xa0Et grovt lovbrudd\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Håndteringen av kritikken mot '
+           'konge\xadhuset begynner å bli flau og komisk\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.dagbladet.no/>
+{'location_url': 'https://www.dagbladet.no/',
+ 'tittel': '<h1 class="headline ">\n'
+           '\n'
+           '                        Avis: Pompeo møtte Kim i påsken\n'
+           '                </h1>'}
+2018-06-01 06:14:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-01 06:14:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 423,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 197725,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 1, 4, 14, 21, 555457),
+ 'item_scraped_count': 200,
+ 'log_count/DEBUG': 203,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2018, 6, 1, 4, 14, 21, 224655)}
+2018-06-01 06:14:21 [scrapy.core.engine] INFO: Spider closed (finished)

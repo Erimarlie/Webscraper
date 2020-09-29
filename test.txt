@@ -1,0 +1,1183 @@
+2018-06-02 23:22:32 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapybot)
+2018-06-02 23:22:32 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17134-SP0
+2018-06-02 23:22:32 [scrapy.crawler] INFO: Overridden settings: {'LOG_FILE': 'test.txt', 'SPIDER_LOADER_WARN_ONLY': True}
+2018-06-02 23:22:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-06-02 23:22:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-06-02 23:22:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-06-02 23:22:32 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-06-02 23:22:32 [scrapy.core.engine] INFO: Spider opened
+2018-06-02 23:22:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-06-02 23:22:32 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no> (referer: None)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'PCIB: Triggersesongen nærmer seg',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'TRVX- TMC Excited about the promising news',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'wre-me Hva går egentlig en arbeidsdag med til for Tasmin?',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Strongpoint #18 Det blir kanontall i Q2.',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Smelting av arktisk sjøis.',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'NEL Hydrogen - gjennombrudd i Asia!',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'APCL - mot løsning i Senegal for SOSP og andel av ROP ?',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Biotec hvorfor eier dere aksjer i Biotec',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'NANO: pasient inkludering i PARADIGME',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': '^^Booom: OBOS-prisene i Oslo økte med 3,8 prosent i mai',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'ELE - Selg nå på 5,74',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Snart ferie. Og ferie=BILFERIE!',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'NOM-NORDIC OCEAN RESOURCES AS (NORA)',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'LSG. Del 2',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Ad bevisst feilprising i dagligvarehyllene.',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'ELE - Siste mulighet...',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'PCIB - FimaVACC-tråd',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Italia har fått høyrepopulistisk regjering.',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Skraping av skip oljetankere 2018 v2',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'THIN - Utkonkurrert av PragmatIC',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Bwlpg- Bwlpg vil sluke Dorian',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'TOPPMØTE MELLOM NORD KOREA OG USA 12.JUNI 2018',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'NAS - Et spill for galleriet....?',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Awilco Drilling, veien videre i 2018, risk & possibilities',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Carnegie mener BIOTEC er billig',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'BerGenBio - Fikset utfordringen med REK',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'QEC - Siste spikeren UT av kista ;-)',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'NOD - DNB Marked, kjøpsanbefaling, kursmål  70, opp fra 65',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'CMC markets',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Dømer på offtake agreements lithium carbonate/spodumene',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Hehehe - 19 kroner mila for å kjøre elektrisk;-)))',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Kraft Bank - tatt noen lodd her',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Skatt på utleie i Florida.',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'GOLAR LNG',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'FLNG i 20 kroner',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'QEC - Alt henger sammen med alt :-)',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Korrupsjonskultur på ny på vei inn i Stortingsprosjektet ?',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Radforsk - Oncoinvent sjefen i siste pod',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'QEC - RT og dagen idag 01.06!',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'KOMP, MONO, NOFI, INSTA - beste lodd for 2018? (del 2)',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Slåsskamp på innflytningsfest blandt finanskjendiser.',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'APCL - Kan vi få 15% av ROP...og hele SOSP?',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'NEXT eller IDEX? VIII',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Hlng- i alle dager- skal den vrenge opp nu?',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': '…er kroken på døren en relalitet',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'ELE - T10 -  Nedtelling til EGF 06.06.18',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Nå kommer vårflommen av nye boliger til salgs',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'GIG- BREAKING « sportsbetting dømt lovlig i USA!!!!',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'MHG - Utvilkingen frem mot høsten',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Apcl - Jens Pace. Må forvente mer av en BP man',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'HLNG target 78.-',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'IDEX - $$$$$$$$""""%%% """""""" 9 KR """"""""""$$$$$$$$$$$',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'ELE - Nothing new under the sun!',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'ELE - Kursutviklingen mm (6)',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Avance- en ekstremt giret LPG aksje- ratene eksploderer',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Dobbler AMSC utbytte i 3 kvartal ?',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'vistin- Har Spetalen/ Vistin investert i Hunter ?',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': '[AUSS] Hvorfor verdsettes selskapet så lavt?',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'DOF -Marginal økning i inntekter :',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'MHG - Utviklingen frem mot sommeren',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'OTELLO - Kjøper egne aksjer i strid med GF',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Nano - Nytt styremedlem ekspert kommersialisering!',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'IOX - Patience is an Virtue they say',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'North- Invest selskapet taper 25 mill i q4',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Apcl. Da er Timis ute. Hva nå ?',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'AMSC: klar for vanvittig oppgang,',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'kitron',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'APCL - Egentlig mye nytt - historien vil nok gjenta seg',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'Nano RT/smal talk / Paradigme/ del 2',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'thin - Over kr.2 innen kort tid.',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'NORTH - Fortsetter å øke i TXP',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'IDEX - HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA!!!! Lol!',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'THIN- Kommer til å gå til himmels',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'DLBCL',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'NANO:   STØTTE i kvarter, time og dagchart',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'NANO Q1 - webcast betraktninger',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'CRAYON - Crayon er i spill - storeier flagger',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'FOE- Nå er det tid for inngang i aksjen igjen- 10.5kr',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'SOFF skyder fart',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no>
+{'location_url': 'http://forum.hegnar.no',
+ 'ticker': None,
+ 'title': 'APCL - Is about to reach an amicable agreement',
+ 'username': 'longo'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433372> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2426828> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433499> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433442> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2430753> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2432604> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2432266> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433372>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433372',
+ 'ticker': 'NANO',
+ 'title': 'NANO Q1 - webcast betraktninger',
+ 'username': 'roller81'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2426828>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2426828',
+ 'ticker': 'NORTH',
+ 'title': 'NORTH - Fortsetter å øke i TXP',
+ 'username': 'Krieghoff'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2426828>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2426828',
+ 'ticker': 'NORTH',
+ 'title': 'NORTH - Kommer skatteoppgjøret innen Q1',
+ 'username': 'Krieghoff'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433499>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433499',
+ 'ticker': 'NANO',
+ 'title': 'DLBCL',
+ 'username': 'Studenten86'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433442>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433442',
+ 'ticker': 'THIN',
+ 'title': 'thin - Over kr.2 innen kort tid.',
+ 'username': 'hango'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2431334> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2224517> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2430753>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2430753',
+ 'ticker': 'NANO',
+ 'title': 'Nano RT/smal talk / Paradigme/ del 2',
+ 'username': 'Lotepus'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2432604>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2432604',
+ 'ticker': 'APCL',
+ 'title': 'APCL - Egentlig mye nytt - historien vil nok gjenta seg',
+ 'username': 'Andyo'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2432604>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2432604',
+ 'ticker': 'APCL',
+ 'title': 'Egentlig mye nytt - historien vil nok gjenta seg',
+ 'username': 'Andyo'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433266> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2432266>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2432266',
+ 'ticker': 'KIT',
+ 'title': 'kitron',
+ 'username': 'gauken'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO:   STØTTE i kvarter, time og dagchart',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433416> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO: tenker vi har bunnen HER  https://imgur.com/a/9XwChGd',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO: avgittKJØPSSIGNAL BULL HARAMI CROSS i kvarterchart',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO: formertKJØPSSIGNALER dagBULLDOJISTAR +3dOHS',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO: avgittBULLDOJI i kvarter og formertBULLDOJI i times',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO: formert dagBULLHAMMER +avgitt timesBULLENGULF',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO: LAKSETRAPPA kvarterchart inneh. 3 spekOHSer',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO: Sluttet avgitt BULL HARAMI i times',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO: doubbleBULL REVERSALS i uke+mndchart m BULLDOJIer',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO: BESTOD testen av brudd opp https://imgur.com/a/ia3QK',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431334>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431334',
+ 'ticker': 'NANO',
+ 'title': 'NANO: BESTOD testen av brudd opp https://imgur.com/a/ia3QKr',
+ 'username': 'Hugoil'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2224517>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2224517',
+ 'ticker': 'AMSC',
+ 'title': 'AMSC: klar for vanvittig oppgang,',
+ 'username': 'jerry1'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2430009> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433385> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2430555> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433266>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433266',
+ 'ticker': 'APCL',
+ 'title': 'Apcl. Da er Timis ute. Hva nå ?',
+ 'username': 'FrackingQec'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2426743> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433416>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433416',
+ 'ticker': 'NORTH',
+ 'title': 'North- Invest selskapet taper 25 mill i q4',
+ 'username': 'Longsitinbulk'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2430009>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2430009',
+ 'ticker': 'IOX',
+ 'title': 'IOX - Patience is an Virtue they say',
+ 'username': 'Foreigner'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433385>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433385',
+ 'ticker': 'NANO',
+ 'title': 'Nano - Nytt styremedlem ekspert kommersialisering!',
+ 'username': 'Merlin'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2430555>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2430555',
+ 'ticker': 'OTELLO',
+ 'title': 'OTELLO - Kjøper egne aksjer i strid med GF',
+ 'username': 'dick ....'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2432258> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2426743>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2426743',
+ 'ticker': 'mhg',
+ 'title': 'MHG - Utviklingen frem mot sommeren',
+ 'username': 'Silberman'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2431769> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2426743>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2426743',
+ 'ticker': 'mhg',
+ 'title': 'MHG - Utviklingen frem mot påske',
+ 'username': 'Silberman'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2432258>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2432258',
+ 'ticker': 'DOF',
+ 'title': 'DOF -Marginal økning i inntekter :',
+ 'username': 'Bull-investor'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2431217> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2430183> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433085> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431769>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431769',
+ 'ticker': 'APCL',
+ 'title': 'APCL - Is about to reach an amicable agreement',
+ 'username': 'oops16'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431769>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431769',
+ 'ticker': 'APCL',
+ 'title': 'APCL - Could be about to reach an amicable agreement',
+ 'username': 'oops16'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2423126> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433059> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2293294> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433419> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433049> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431217>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431217',
+ 'ticker': 'SOFF',
+ 'title': 'SOFF skyder fart',
+ 'username': 'danm'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431217>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431217',
+ 'ticker': 'SOFF',
+ 'title': 'Presentation of Q1 2018 & Annual General Meeting',
+ 'username': 'danm'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431217>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431217',
+ 'ticker': 'SOFF',
+ 'title': 'SOFF Largest Shareholders',
+ 'username': 'danm'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2430183>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2430183',
+ 'ticker': 'FOE',
+ 'title': 'FOE- Nå er det tid for inngang i aksjen igjen- 10.5kr',
+ 'username': 'Longsitinbulk'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433418> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433377> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433085>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433085',
+ 'ticker': 'CRAYON',
+ 'title': 'CRAYON - Crayon er i spill - storeier flagger',
+ 'username': 'Yess'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433158> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2423126>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2423126',
+ 'ticker': 'AUSS',
+ 'title': '[AUSS] Hvorfor verdsettes selskapet så lavt?',
+ 'username': 'kokkos69'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433431> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433059>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433059',
+ 'ticker': 'VISTIN',
+ 'title': 'vistin- Har Spetalen/ Vistin investert i Hunter ?',
+ 'username': 'Longsitinbulk'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433059>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433059',
+ 'ticker': 'VISTIN',
+ 'title': 'Hva er det største problemet med VISTIN?',
+ 'username': 'Longsitinbulk'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433059>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433059',
+ 'ticker': 'VISTIN',
+ 'title': 'RE: Longsitinbulk - OPPDATERT',
+ 'username': 'Longsitinbulk'}
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433059>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433059',
+ 'ticker': 'VISTIN',
+ 'title': 'Longsitinbulk og Tigern',
+ 'username': 'Longsitinbulk'}
+2018-06-02 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433512> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2293294>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2293294',
+ 'ticker': 'AMSC',
+ 'title': 'Dobbler AMSC utbytte i 3 kvartal ?',
+ 'username': 'Mackook'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433419>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433419',
+ 'ticker': 'AVANCE',
+ 'title': 'Avance- en ekstremt giret LPG aksje- ratene eksploderer',
+ 'username': 'Longsitinbulk'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2432571> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433049>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433049',
+ 'ticker': 'ELE',
+ 'title': 'ELE - Kursutviklingen mm (6)',
+ 'username': 'rischioso'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2432819> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433418>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433418',
+ 'ticker': 'ELE',
+ 'title': 'ELE - Nothing new under the sun!',
+ 'username': 'mcaxel'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433016> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433377>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433377',
+ 'ticker': 'IDEX',
+ 'title': 'IDEX - $$$$$$$$""""%%% """""""" 9 KR """"""""""$$$$$$$$$$$',
+ 'username': 'REKYL-JEGER'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433509> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433158>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433158',
+ 'ticker': 'HLNG',
+ 'title': 'HLNG target 78.-',
+ 'username': 'kodenavn'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433431>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433431',
+ 'ticker': 'APCL',
+ 'title': 'Apcl - Jens Pace. Må forvente mer av en BP man',
+ 'username': 'FrackingQec'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2429101> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433512>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433512',
+ 'ticker': 'mhg',
+ 'title': 'MHG - Utvilkingen frem mot høsten',
+ 'username': 'Silberman'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2425842> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2432571>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2432571',
+ 'ticker': 'GIG',
+ 'title': 'GIG- BREAKING « sportsbetting dømt lovlig i USA!!!!',
+ 'username': 'Orakel O'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2432819>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2432819',
+ 'ticker': None,
+ 'title': 'Nå kommer vårflommen av nye boliger til salgs',
+ 'username': 'DavidM'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433450> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433461> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433016>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433016',
+ 'ticker': 'ELE',
+ 'title': 'ELE - T10 -  Nedtelling til EGF 06.06.18',
+ 'username': 'Yess'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2431985> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433509>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433509',
+ 'ticker': 'WRE-ME',
+ 'title': '…er kroken på døren en relalitet',
+ 'username': 'lofric'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433496> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2429101>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2429101',
+ 'ticker': 'HLNG',
+ 'title': 'Hlng- i alle dager- skal den vrenge opp nu?',
+ 'username': 'Longsitinbulk'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2432951> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433531> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433466> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'NEXT eller IDEX? VIII',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'FA 05.02.2018: Fingeravtrykkkollaps på børsen',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'MasterCard: "Hela vårt driv är att bli av med plastkorten"',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'Fortsatt ingen EMV standard for betalingskort med sensor',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'Er plastkort, ID-kort, billetter, etc. snart historie?',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'Går IDEX konk i 2019?',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'NEXT CEO Ritu Favre: Fingeravtrykksensorer er ikke sikre',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'RE 1: Hammers',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433023> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'RE 2: Hammers',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'RE 3: Hammers',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'RE 4: Hammers',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'RE 5: Hammers',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'Æresmedlem og president i "TA mannen, IKKE ballen"?',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'RE 6: Hammers',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'Er du ikke allerede eventyrforfatter, så bli det!',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'Norges Bank med egne digitale penger & betalingsapp for alle',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'Norge v Verden',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'Svensk kriminologi prof: Därför frias Carlstöm och Rollén',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2425842>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2425842',
+ 'ticker': 'NEXT',
+ 'title': 'Johan Carlström tror på smartkort med sensor – OM 2-3 ÅR',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433450>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433450',
+ 'ticker': 'APCL',
+ 'title': 'APCL - Kan vi få 15% av ROP...og hele SOSP?',
+ 'username': 'Warom'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2243376> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433461>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433461',
+ 'ticker': None,
+ 'title': 'Slåsskamp på innflytningsfest blandt finanskjendiser.',
+ 'username': 'Klinkekulå'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2274866> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2431985>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2431985',
+ 'ticker': 'NOFI',
+ 'title': 'KOMP, MONO, NOFI, INSTA - beste lodd for 2018? (del 2)',
+ 'username': 'AksjeInvest'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433497> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433496>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433496',
+ 'ticker': 'QEC',
+ 'title': 'QEC - RT og dagen idag 01.06!',
+ 'username': 'Nano Rekyl'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433496>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433496',
+ 'ticker': 'QEC',
+ 'title': 'QEC - Kr. 10 til 12.- innen juni 2018 og regulering.',
+ 'username': 'Nano Rekyl'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2432203> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2432951>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2432951',
+ 'ticker': 'ONCOIN',
+ 'title': 'Radforsk - Oncoinvent sjefen i siste pod',
+ 'username': 'AksjeInvest'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433531>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433531',
+ 'ticker': 'Bastil',
+ 'title': 'Korrupsjonskultur på ny på vei inn i Stortingsprosjektet ?',
+ 'username': 'bråkebøtte'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433411> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433466>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433466',
+ 'ticker': 'QEC',
+ 'title': 'QEC - Alt henger sammen med alt :-)',
+ 'username': 'JimJohnny'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433023>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433023',
+ 'ticker': 'FLNG',
+ 'title': 'FLNG i 20 kroner',
+ 'username': 'kodenavn'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2424091> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2243376>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2243376',
+ 'ticker': 'GLNG',
+ 'title': 'GOLAR LNG',
+ 'username': 'Trendline'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2274866>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2274866',
+ 'ticker': 'FLL',
+ 'title': 'Skatt på utleie i Florida.',
+ 'username': 'Balle Chlorin'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433400> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433497>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433497',
+ 'ticker': 'KRAB',
+ 'title': 'Kraft Bank - tatt noen lodd her',
+ 'username': 'Mr.Ocean'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2432203>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2432203',
+ 'ticker': None,
+ 'title': 'Hehehe - 19 kroner mila for å kjøre elektrisk;-)))',
+ 'username': 'Melvind V'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433411>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433411',
+ 'ticker': 'NOM',
+ 'title': 'Dømer på offtake agreements lithium carbonate/spodumene',
+ 'username': '_HH_'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433411>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433411',
+ 'ticker': 'NOM',
+ 'title': 'Håper dette stemmer...',
+ 'username': '_HH_'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433411>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433411',
+ 'ticker': 'NOM',
+ 'title': 'Kanskje vi ikke skal forvente for mye av DFS?',
+ 'username': '_HH_'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433544> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2424091>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2424091',
+ 'ticker': 'NOD',
+ 'title': 'NOD - DNB Marked, kjøpsanbefaling, kursmål  70, opp fra 65',
+ 'username': 'Flaxx'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2424091>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2424091',
+ 'ticker': 'NOD',
+ 'title': 'NOD - DNB Marked, kjøpsanbefaling, kursmål  65, opp fra 49',
+ 'username': 'Flaxx'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2369003> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433400>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433400',
+ 'ticker': 'QEC',
+ 'title': 'QEC - Siste spikeren UT av kista ;-)',
+ 'username': 'JimJohnny'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433544>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433544',
+ 'ticker': 'BGBIO',
+ 'title': 'BerGenBio - Fikset utfordringen med REK',
+ 'username': 'Flottesen'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2429159> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433542> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433357> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2369003>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2369003',
+ 'ticker': 'BIOTEC',
+ 'title': 'Carnegie mener BIOTEC er billig',
+ 'username': 'Rocken'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433386> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2432664> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433515> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2429159>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2429159',
+ 'ticker': 'HAMMER',
+ 'title': 'NAS - Et spill for galleriet....?',
+ 'username': 'Hammers'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433526> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2429159>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2429159',
+ 'ticker': 'HAMMER',
+ 'title': 'NAS - Brudd på viktig støtte!',
+ 'username': 'Hammers'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2429159>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2429159',
+ 'ticker': 'HAMMER',
+ 'title': 'NAS - Et spill for galleriet.....?',
+ 'username': 'Hammers'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433507> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433542>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433542',
+ 'ticker': 'EQNR',
+ 'title': 'TOPPMØTE MELLOM NORD KOREA OG USA 12.JUNI 2018',
+ 'username': 'Regnmeg'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433471> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433357>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433357',
+ 'ticker': 'BWLPG',
+ 'title': 'Bwlpg- Bwlpg vil sluke Dorian',
+ 'username': 'Longsitinbulk'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'THIN - Utkonkurrert av PragmatIC',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'RE: scorn',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'RE:  Jackpot$, Greatlife & co',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'THIN - ?',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'RE: tynnslitt',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'DN: Hva «superforvalter» Mølsæter investerer i',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'THIN nissen Longsitinbulk',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'THIN nissen Greatlife',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'THIN - Tommy og Tigern i dagens VG',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'THIN - ORIGINALE "Tommy og Tigern" i dagens VG',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'Lær deg å stave først - Reseven',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': '100% feil, IGJEN \xa0:)',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433386>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433386',
+ 'ticker': 'THIN',
+ 'title': 'RE: Greatlife & bullokse',
+ 'username': 'Reserven'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2432418> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433444> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2432664>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2432664',
+ 'ticker': 'FRO',
+ 'title': 'Skraping av skip oljetankere 2018 v2',
+ 'username': 'Mooi'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433515>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433515',
+ 'ticker': None,
+ 'title': 'Italia har fått høyrepopulistisk regjering.',
+ 'username': 'Klinkekulå'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2427865> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433551> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433502> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433526>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433526',
+ 'ticker': 'PCIB',
+ 'title': 'PCIB - FimaVACC-tråd',
+ 'username': 'Snøffelen'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433507>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433507',
+ 'ticker': 'ELE',
+ 'title': 'ELE - Siste mulighet...',
+ 'username': 'oddivar'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433471>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433471',
+ 'ticker': 'MONEY',
+ 'title': 'Ad bevisst feilprising i dagligvarehyllene.',
+ 'username': 'bråkebøtte'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2371873> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433532> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2432418>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2432418',
+ 'ticker': 'LAKS',
+ 'title': 'LSG. Del 2',
+ 'username': 'milk'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433444>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433444',
+ 'ticker': None,
+ 'title': 'Snart ferie. Og ferie=BILFERIE!',
+ 'username': 'mishka'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433472> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433554> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2427865>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2427865',
+ 'ticker': 'ELE',
+ 'title': 'ELE - Selg nå på 5,74',
+ 'username': 'dick ....'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433551>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433551',
+ 'ticker': None,
+ 'title': '^^Booom: OBOS-prisene i Oslo økte med 3,8 prosent i mai',
+ 'username': 'aibo'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433487> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433469> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433384> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433502>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433502',
+ 'ticker': 'NANO',
+ 'title': 'NANO: pasient inkludering i PARADIGME',
+ 'username': 'karlman'}
+2018-06-02 23:22:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2433420> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2371873>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2371873',
+ 'ticker': 'BIOTEC',
+ 'title': 'Biotec hvorfor eier dere aksjer i Biotec',
+ 'username': 'bj111'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433532>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433532',
+ 'ticker': 'APCL',
+ 'title': 'APCL - mot løsning i Senegal for SOSP og andel av ROP ?',
+ 'username': 'Andyo'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433472>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433472',
+ 'ticker': 'NEL',
+ 'title': 'NEL Hydrogen - gjennombrudd i Asia!',
+ 'username': 'Bill55'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433554>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433554',
+ 'ticker': None,
+ 'title': 'Smelting av arktisk sjøis.',
+ 'username': "Fornybar'n"}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433487>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433487',
+ 'ticker': 'STRONG',
+ 'title': 'Strongpoint #18 Det blir kanontall i Q2.',
+ 'username': 'sulzrox'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433469>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433469',
+ 'ticker': 'WRE-ME',
+ 'title': 'wre-me Hva går egentlig en arbeidsdag med til for Tasmin?',
+ 'username': 'SirSmokealot'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433384>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433384',
+ 'ticker': 'TRVX',
+ 'title': 'TRVX- TMC Excited about the promising news',
+ 'username': 'MedisinO'}
+2018-06-02 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2433420>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2433420',
+ 'ticker': 'PCIB',
+ 'title': 'PCIB: Triggersesongen nærmer seg',
+ 'username': 'longo'}
+2018-06-02 23:22:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://forum.hegnar.no/thread.asp?id=2426535> (referer: http://forum.hegnar.no)
+2018-06-02 23:22:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://forum.hegnar.no/thread.asp?id=2426535>
+{'location_url': 'http://forum.hegnar.no/thread.asp?id=2426535',
+ 'ticker': 'AWDR',
+ 'title': 'Awilco Drilling, veien videre i 2018, risk & possibilities',
+ 'username': 'zaq1'}
+2018-06-02 23:22:35 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-06-02 23:22:35 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 24762,
+ 'downloader/request_count': 77,
+ 'downloader/request_method_count/GET': 77,
+ 'downloader/response_bytes': 1118919,
+ 'downloader/response_count': 77,
+ 'downloader/response_status_count/200': 77,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 2, 21, 22, 35, 848904),
+ 'item_scraped_count': 211,
+ 'log_count/DEBUG': 289,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 77,
+ 'scheduler/dequeued': 77,
+ 'scheduler/dequeued/memory': 77,
+ 'scheduler/enqueued': 77,
+ 'scheduler/enqueued/memory': 77,
+ 'start_time': datetime.datetime(2018, 6, 2, 21, 22, 32, 949887)}
+2018-06-02 23:22:35 [scrapy.core.engine] INFO: Spider closed (finished)
